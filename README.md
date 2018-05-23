@@ -1,6 +1,6 @@
 
 ## 技术栈：
-  react + redux + webpack + react-router + ES6/7/8
+  react + redux + webpack + react-router + ES6
 
 
 ## 运行项目（nodejs 6.0+）
