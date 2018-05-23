@@ -1,0 +1,35 @@
+.app-bg {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30%;
+    background-image: url('http://ovxw8fyk7.bkt.clouddn.com/images/1-1306030RI8.jpg');
+    background-position: center 0;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.animate {
+    animation: rotate 5s ease-in-out infinite;
+    -webkit-animation: rotate 5s ease-in-out infinite;
+    transform-origin: 50% 24%;
+}
+
+@keyframes rotate {
+    0%, 100% {
+        transform: rotate(30deg)
+    }
+    50% {
+        transform: rotate(-30deg)
+    }
+}
+
+@-webkit-keyframes rotate /* Safari 和 Chrome */
+{
+    0%, 100% {
+        -webkit-transform: rotate(30deg)
+    }
+    50% {
+        -webkit-transform: rotate(-30deg)
+    }
+}

@@ -1,0 +1,72 @@
+@import "../../styles/themeDark.less";   // 引入官方提供的 less 样式入口文件
+
+.sports-list {
+  line-height: 1.5;
+  margin-bottom:.2rem;
+  .am-swipe {
+    margin: .2rem auto 0;
+  }
+  .swipe-wrap {
+    border-radius:@radius-md;
+    display: block;
+    color: @color-text-base;
+  }
+  .tag {
+    position: absolute;
+    right: -26px;
+    top: 7px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #0ff9;
+    font-size: 12px;
+    width: 90px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+  }
+  .tag-over {
+    background-color: #0f09;
+  }
+  .tag-fail {
+    background-color: #f009;
+  }
+  .tag-deserted, .tag-deleted {
+    background-color: #0009;
+  }
+  .content-wrap {
+    padding: .3rem;
+  }
+  .title {
+    font-size:@font-size-caption;
+  }
+  .target {
+    font-size: @font-size-base;
+  }
+  .promise,.time-wrap {
+    font-size: @font-size-caption-sm;
+  }
+  .time-wrap {
+    padding: .2rem .3rem;
+    display: flex;
+    background: #0000001a;
+    li {
+      flex: 1;
+    }
+    li:last-child {
+      text-align: right;
+    }
+  }
+  .private{
+    padding-left: .5rem;
+  }
+  .am-swipe-content {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  .am-swipe-btn {
+    border-radius: @radius-md;
+    margin-left: .1rem;
+    padding: 0 .5rem;
+  }
+}
